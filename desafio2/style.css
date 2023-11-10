@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+    background: rgb(30, 25, 25);
+    color: white;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

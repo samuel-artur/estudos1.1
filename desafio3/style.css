@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'andro';
+    src: url('pacote/fontes/idroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Kenyan';
+    src: url('pacote/fontes/kenyan\ coffee\ rg.otf');
+}
+.main1{
+    border-radius: 10px;
+    font-family: 'andro';
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: white;
+}
+.main2{
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Kenyan';
+    margin: -21px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top, rgb(6, 64, 6), rgb(113, 194, 113) );
+}
+body{
+    font-family: serif;
+    margin: auto;
+    background: bisque;
+    
+}
+html{
+    margin: 0px;
+}
+.paragrafo{
+    font-family: ARIAL;
+}
+.versao{
+    background-image: linear-gradient(to right, rgb(89, 181, 89), rgb(255, 255, 255) );
+    text-align: left;
+}
+.titulo2{
+   
+    text-align: left;
+}
+.opcoes{
+    text-align: left;
+}
+.site{
+    color: white;
+}
+.curiosidades{
+    color: white;
+}
+.titulo2{
+    text-align: justify;
+}
+.imagem{
+    margin: 0 auto;
+}

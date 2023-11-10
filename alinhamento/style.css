@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*margin auto: coloca tudo no centro da página, ao longo que a página vai se movimentando*/
+    /* text-align: center; : a mesma coisa que o 'margin: auto', a diferença que só fica no centro */
+    /*text-align: justify; : deixa o texto alinhado na página*/
+    /* o id só pode ser usado 1 vez no mesmo documento HTML, e no CSS, ele é representado pelo símbolo #. Exemplo: h1#exemplo{
+                                 background: rgb(122, 122, 201);
+                                            }
+    já o class é representado pelo símbolo . , e o . não precisa de do nome da tag antes, como a tag .nome abaixo*/
+ 
+        body{
+            background: rgb(122, 122, 201);
+            color: white;
+            text-align: center;
+            text-align: justify;
+            margin: auto;
+
+        }
+        h1 {
+            margin: auto;
+            text-align: center;
+        }
+        .nome{
+            color: bisque;
+        }
+        .basico{
+            color: #2d2727;
+        }
+        .interme{
+            color: blue;
+        }
+        .avancado{
+            color: orange;
+        }
