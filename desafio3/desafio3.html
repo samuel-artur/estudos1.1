@@ -24,7 +24,6 @@ main{
     text-align: center;
     background-image: linear-gradient(to top, darkgreen, rgb(174, 210, 174));
     color: white;
-    text-align: center;
 }
 div{
     box-shadow: 12px;
@@ -75,7 +74,7 @@ p{
     width: 73%; /* Largura total da área pai */
     padding: 18.25% 0% 41.25% 26.25%; /* Proporção 16:9 (ajustar conforme necessário) */
   }
-  iframe {
+iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -83,9 +82,8 @@ p{
     height: 60%;
   }
 .video{
-        width: 60px;
+        width: 60px 100%;
         height: 56%;
-
         padding-bottom: 5%;
         position: relative;
 }
@@ -126,12 +124,14 @@ p{
     background: rgb(174, 210, 174);
 }
 nav{
-            color: white;
-            text-decoration: none;
-            margin-inline-end: 0px;
-            margin-inline-start: 0px;
-            margin-block-start: 0px;
-            margin-block-end: 0px;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+}
+nav:hover > p{
+        padding: 0px;
+        margin: 0px;
 }
 .div1{
         margin: 5px auto;
@@ -146,7 +146,7 @@ nav{
         text-shadow: 2px 2px 5px white;
         text-align: center;
 }
-.rodape strong{
+.rodape > strong{
         color: white;
 }
 .div2 {
