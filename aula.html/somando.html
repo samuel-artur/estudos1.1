@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORES</title>
+    <style>
+        body{
+            background: white;
+        }
+        div#area{
+            font: normal 17pt arial;
+            background: black;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 150pt;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id = 'area'>
+        interaja...
+    </div>
+    <h1>somando números</h1>
+    <div>Obs: o botão 'Interaja...' é só um teste</div>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="somar" onclick=" somar()">
+    <div id = 'som'>Resultará</div>
+    <script>
+        var a = document.getElementById("area")
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('mouseout', sair)
+        function clicar(){
+            a.innerText = 'clicou'
+        }
+        function entrar(){
+           a.innerText = 'entrou'
+        }
+        function sair(){
+        a.innerText = 'saiu'
+    }
+    
+    function somar(){
+        var tn1 = document.getElementById("txtn1")
+        var tn2 = document.querySelector('input#txtn2')
+        const soma = document.getElementById('som')            
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)
+        var s = n1 + n2
+        som.innerHTML = `a soma entre ${n1} e ${n2}, retornará <strong>${s}</strong>`
+    }
+    </script>
+</body>
+</html>
